@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int amount, hundreds, fifty, ten;
+clrscr();
+printf("Enter the Amount :");
+scanf("%d", &amount);
+hundreds = amount /100;
+amount%=100;
+fifty = amount /50;
+amount%= 50;
+ten= amount/10;
+printf("Number of Hundreds : %d\n", hundreds);
+printf("Number of Fifty : %d \n", fifty);
+printf("Number of tens : %d", ten);
+getch();
+}
