@@ -8,7 +8,7 @@ printf("Enter the ending number:");
 scanf("%d",&n);
 while(i<=n)
 {
-printf("%d",i);
+printf("%d\n",i);
 i++;
 }
 getch();
