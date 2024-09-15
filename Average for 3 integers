@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-void main ()
+void main()
 {
 int mk1, mk2, mk3,sum;
 float Avg;
