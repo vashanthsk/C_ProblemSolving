@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num,rem,max=0;
+clrscr();
+printf("Enter a number:");
+scanf("%d",&num);
+while(num!=0)
+{
+rem=num%10;
+if(rem>max) max=rem;
+num=num/10;
+}
+printf("%d",max);
+getch();
+}
