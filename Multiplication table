@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int m, n, p=1;
+сlrscr();
+printf("Enter the multiplication table: ");
+scanf("%d",&m);
+printf("Enter the multi table ending term: ");
+scanf("%d", & n);
+do {
+printf("%d * %d = %d\n", p, m,m*p);
+p++;
+} while (p<=n);
+getch();
+}
