@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+void main ()
+{
+int mk1, mk2, mk3,sum;
+float Avg;
+clrscr();
+printf ("Enter the mk1:");
+scanf("%d", & mk1);
+printf ("Enter the mk2: ");
+scanf ("%d", & mk2);
+printf ("Enter the mk3:");
+scanf ("%d", & mk3);
+Avg= mk1 + mk2+ mk3/3;
+printf ("Average is: %f", Avg);
+getch();
+}
