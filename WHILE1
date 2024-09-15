@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,i=1;
+clrscr();
+printf("Enter the ending number:");
+scanf("%d",&n);
+while(i<=n)
+{
+printf("%d",i);
+i++;
+}
+getch();
+}
