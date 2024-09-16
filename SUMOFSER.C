@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,i,j=0;
+clrscr();
+printf("Enter the range:");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+j=j+i;
+}
+printf("%d",j);
+getch();
+}
